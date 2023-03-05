@@ -1,0 +1,239 @@
+.Multiline{
+    white-space:pre-wrap;
+}
+.main_nav{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+
+}
+.background-image {
+    background-image: url(Images/blue_bg.png);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    }
+
+.Left_nav{
+        display: flex;
+        justify-content: space-between;    
+    }
+    .left_list{
+        margin: 10px;
+    }
+    .left_list2{
+        margin: 10px;
+        margin-top: 30px;
+    }
+
+    .right_nav{
+        display: flex;
+        justify-content: space-between;    
+    }
+    .right_list{
+        margin: 20px;
+        margin-left: 300px;
+    }
+    .first_section{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 100px;
+  
+     
+    }
+    .color1{
+        font-size: 40px;
+        color: rgb(92, 92, 92);
+    }
+    .color2{
+        color:blueviolet;
+        font-size: 40px;
+    }
+ 
+    .overlay {
+        appearance: none;
+        background-color: #FAFBFC;
+        border: 1px solid rgba(27, 31, 35, 0.15);
+        box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0, rgba(255, 255, 255, 0.25) 0 1px 0 inset;
+        box-sizing: border-box;
+        cursor: pointer;
+        display: inline-block;
+        font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+        font-size: 14px;
+        line-height: 20px;
+        width: 100px;
+        list-style: none;
+        padding: 10px; ;
+        position: relative;
+        transition: background-color 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+        border-radius: 20px;  
+        padding: 10px 10px;
+        font-weight: 500;
+        color:black;
+        text-align: center;
+        
+      }
+    .first_img{
+        height:100vh;   
+    }
+
+    .sec_img{
+   position: absolute;
+   top: 54%;
+   left: 65%;
+   transform: translate(-50%,-50%);
+      }
+    .third_img{
+        position: absolute;
+        top: 90%;
+        left: 65%;
+        transform: translate(-50%,-50%);
+     }
+     .Fourth_img{
+        position: absolute;
+        top: 95%;
+        left: 45%;
+        transform: translate(-50%,-50%);
+        width: 150vh;
+     }
+        .sec_section{
+    
+            display: flex;
+            justify-content: space-between;
+            position: relative;
+             
+        }
+     .Five_img{
+        margin-top: 80px;
+        margin-left: 250px;
+        width: 120vh;
+        height: 80vh; 
+        position: relative;
+     }
+
+     .sixth_img{
+       
+        position: absolute;
+        top: 200px;
+        left: 120px;
+
+     }
+     .seven_img{
+        position: absolute;
+        top: 400px;
+        left: 650px;
+     }
+     .third_section{
+        display: flex;
+        justify-content: space-between;
+        margin-right: 200px;
+    }
+    .First_box{
+height: 100%;
+width: 100%;
+margin-right: 300px;
+margin-top: 100px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        font-size: 24px;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+     .eight_img{
+        position: absolute;
+        z-index: -1;     
+     }
+     .fourth_section{
+        margin: 50px;
+    
+        display: flex;
+        justify-content: space-around;
+     }
+     .nine_img{
+        margin-top: 130px;
+        margin-bottom: 130px;
+        padding: 50px;
+     margin-left: 80px;  
+    }
+     .ten_img{
+        margin-top: 40px;      
+    }
+     .eleven_img{
+        margin-top: 150px;
+        margin-bottom: 130px;
+        padding: 50px;
+        margin-right: 90px; 
+    }
+    
+
+.background-image3 {
+        background-image: url(Images/Group\ 1131.png);
+        height: 550px;
+        background-size:cover;
+        background-repeat: no-repeat;   
+        position: relative;    
+        }
+.main_footer{
+            display: flex;
+            justify-content: space-between;
+            position: relative;       
+        }
+
+
+ .first_flex{
+    display: flex;
+position: absolute;
+bottom:-5px;
+left: 150px;
+
+
+ } 
+ .sec_flex{
+    display: flex;
+position: absolute;
+bottom: 30px;
+left: 150px;
+ }   
+ .footer_style_1 {  
+    margin: 15px;
+    height: 20px;
+ }
+ .footer_style_2 {  
+    margin: 5px;
+    height: 20px;
+    margin-left: 15px;  
+ }
+ .footer_style_3 {  
+    margin: 5px;
+    height: 20px;
+    margin-left: 15px;  
+ }
+ .third_flex{
+    display: flex;
+position: absolute;
+bottom: 80px;
+left: 150px;
+ }
+ .img_app{
+   position: absolute;
+   right: 230px; 
+   top: 15px;
+   height: 25px;
+ } 
+ .img_go{
+    position: absolute;
+    right: 100px; 
+    top: 17px;
+    height: 23px;  
+ }
+ .img_footer{
+    position: absolute;
+    height: 440px;
+    left: 650px;
+    top: 110px;
+
+ }
